@@ -6,7 +6,7 @@ import javax.ws.rs.ext.RuntimeDelegate;
 /**
  * Created by ajanthan on 6/28/16.
  */
-public class HeaderDeligateImpl implements RuntimeDelegate.HeaderDelegate<MediaType> {
+public class HeaderDelegateImpl implements RuntimeDelegate.HeaderDelegate<MediaType> {
     @Override
     public MediaType fromString(String s) {
         MediaType mediaType = MediaType.APPLICATION_JSON_TYPE;

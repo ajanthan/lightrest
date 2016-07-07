@@ -16,7 +16,7 @@ public class RuntimeDelegateImpl extends RuntimeDelegate {
     private Map<Class<?>, HeaderDelegate> providers = new HashMap<>();
 
     public RuntimeDelegateImpl() {
-        providers.put(MediaType.class, new HeaderDeligateImpl());
+        providers.put(MediaType.class, new HeaderDelegateImpl());
     }
 
     @Override
@@ -27,8 +27,6 @@ public class RuntimeDelegateImpl extends RuntimeDelegate {
     @Override
     public Response.ResponseBuilder createResponseBuilder() {
         log.debug("Creating response builder");
-
-        System.out.println("Creating response builder");
         return new ResponseImpl.ResponseBuilderImpl();
     }
 
