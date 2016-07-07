@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.github.ajanthan.lightrest</groupId>
-  <artifactId>lightrest</artifactId>
+  <artifactId>lightrest-parent</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20160707204934</lastUpdated>
+    <lastUpdated>20160707205936</lastUpdated>
   </versioning>
 </metadata>
